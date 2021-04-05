@@ -19,3 +19,10 @@ plot(iris)
 
 # structure iris dataset
 str(iris)
+
+# creating vector
+vetor <- c(1,2,4)
+
+# running regression model to generate complex vector
+reg_iris <- lm(iris$Sepal.Length ~ iris$Species)
+str(reg_iris) #analyzing vector structure 
