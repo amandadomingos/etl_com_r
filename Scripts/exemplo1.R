@@ -11,3 +11,11 @@ library("dplyr")
 library("ggplot2")
 library("ggpubr")
 
+# summary iris dataset
+summary(iris)
+
+# plot iris dataset
+plot(iris)
+
+# structure iris dataset
+str(iris)
