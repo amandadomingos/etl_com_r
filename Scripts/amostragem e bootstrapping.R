@@ -27,6 +27,6 @@ mean(distNormalSimulacao) # media dos dados originais
 library(caret)
 
 # primeiro, criamos as partições de dados
-particaoDistNormal <- createDataPartition(1:length(distNormalSimulacao), p=.7) # passamos o tamanho do vetor e o parâmetro de divisão
-treinoDistNormal <- distNormalSimulacao[unlist(particaoDistNormal)] # criamos uma partição para treinar os dados, usando a partição anterior. Atenção: o comando unlist é muito usado para transformar uma lista num vetor
-testeDistNormal <- distNormalSimulacao[- unlist(particaoDistNormal)] 
+particaoDistNormal <- createDataPartition(1:length(distnormalsimula), p=.7) # passamos o tamanho do vetor e o parâmetro de divisão
+treinoDistNormal <- distnormalsimula[unlist(distnormalsimula)] # criamos uma partição para treinar os dados, usando a partição anterior. Atenção: o comando unlist é muito usado para transformar uma lista num vetor
+testeDistNormal <- distnormalsimula[- unlist(distnormalsimula)] 
