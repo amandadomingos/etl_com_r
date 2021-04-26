@@ -15,7 +15,7 @@ ls() #listando novamente todos eles
 
 #Removendo os objetos mais pesados, pra limpar a SA.
 gc() # uso explícito do garbage collector
-rm(list = c('acidentesrec2020raw', 'acidentesrec2021raw', 'acidentesrec2019raw'))
+rm(list = c('acidentesrec2020raw', 'acidentesrec2021raw', 'acidentesrec2019raw', 'acidesntesrec'))
 
 # Outra opção: deletando todos os elementos: rm(list = ls())
 # Mais uma opção: deletando todos os elementos, menos os listados: rm(list=(ls()[ls()!="sinistrosRecifeRaw"]))
